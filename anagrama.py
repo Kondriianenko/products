@@ -1,4 +1,5 @@
-print("fuck you")
+print(" fuck you")
+print ("no you")
 a = str(input())
 b = str(input())
 if a.isalpha() == True and b.isalpha() == True:
