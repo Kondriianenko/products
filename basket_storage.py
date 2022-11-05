@@ -1,4 +1,11 @@
 basket = {}  # dict of products' dicts
+def generete_reseivt():
+    extra_text=('Total price = ')
+    file = open("reseivt.txt", "w")
+    file.write(str(basket))
+    file.write(extra_text+str(get_cost()))
+    file.close()
+    print("your reseivt has been received")
 
 
 def get_choice(text):
@@ -122,5 +129,7 @@ while True:
         print_basket()
     elif choice == "info":
         print_manual()
+    elif choice == "buy":
+        generete_reseivt()
     else:
         print("invalid command")

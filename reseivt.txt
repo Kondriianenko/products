@@ -1,0 +1,1 @@
+{'tomatyo': {'price': 2.0, 'amount': 2, 'total price': 4.0}, 'batay': {'price': 4.0, 'amount': 5, 'total price': 20.0}}Total price =24.0
