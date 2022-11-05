@@ -22,7 +22,7 @@ def print_manual():
           "commands you need: \n  stop - if, instead of product you type stop you finish editing the basket and go to "
           "the main menu  \n  info - call this manual; \n  basket - enter the basket; \n  clear - clear the basket; "
           "\n  delete - delete exact product from the basket; \n  edit_price - edit price of an exact product; \n  "
-          "edit_amount - edit amount of an exact product.")
+          "edit_amount - edit amount of an exact product. \n buy - generate receipt")
 
 
 def input_product():
@@ -110,7 +110,7 @@ def basket_program():
 
 print_manual()
 while True:
-    choice = get_choice("type your command here(basket/clear/delete/edit_price/edit_amount/info)")
+    choice = get_choice("type your command here(basket/clear/delete/edit_price/edit_amount/buy/info)")
     if choice == "basket":
         basket_program()
     elif choice == "clear":
